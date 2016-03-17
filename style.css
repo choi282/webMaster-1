@@ -1,0 +1,67 @@
+/*  기본  */
+		* { margin: 0; padding: 0; }
+        body { font-family: 'Helvetica', sans-serif; }
+        li { list-style: none; }
+        a { text-decoration: none; }
+
+/*헤더 */
+        #header {
+            height: 60px;
+            line-height: 60px;
+            padding-left: 10px;
+            border-bottom: 1px solid black;
+
+            background: #F44505;
+            color: white;
+        }
+
+/*네비게이션*/
+        #top_menu {
+            overflow: hidden;
+            border-bottom: 1px solid black;
+            background: #E30B0B;
+        }
+        #top_menu > ul.menu_list {
+            overflow: hidden;
+            float: left;
+        }
+        #top_menu > ul.menu_list > li { float: left; }
+        #top_menu a {
+
+            display: block;
+            padding: 10px 20px;
+
+   
+            border-right: 1px solid #C60101;
+            color: white;
+            font-weight: bold;
+        }
+        body { min-width: 760px; }
+
+/* 콘텐츠 */
+
+        #wrap { overflow: hidden; }
+        #wrap > #content_wrap {
+            float: left;
+            width: 100%;
+            *width: 99.9%;
+            margin-right: -100px;
+        }
+        #wrap > #content_wrap > #content { padding-right: 100px; }
+
+    
+/*본문 */
+
+        #content {
+            background: white;
+            border-left: 1px solid black;
+        }
+        article { padding: 10px; }
+
+/* 푸터 */
+
+        #footer {
+            padding: 10px;
+            border-top: 3px solid black;
+            text-align: center;
+        }
